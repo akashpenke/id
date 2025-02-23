@@ -1,112 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* General styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    <head>
+        <title>Document</title>
+        <style>
+            table {
+                margin: 10 auto;
+                border: 2px solid black;
+            }
+            td {
+                padding: 2px;
+                text-align: center;
+            }
+            img {
+                align-items: center;
+            }
+            h4, h5, h6 {
+                font-family: Verdana;
+                margin: 0;
+            }
+            .green-text {
+                color: green;
+            }
+            .red-text {
+                color: red;
+            }
+            .left-align {
+                text-align: left;
+            }
+            table {
+                 background-image: image-set('bg.png');
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-size: 100% 80%;
+            }
 
-        table {
-            margin: 10px auto;
-            border: 2px solid black;
-            background-image: url('bg.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-        td {
-            padding: 10px;
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h4, h5, h6 {
-            margin: 0;
-            font-family: Verdana, sans-serif;
-        }
-
-        .green-text {
-            color: green;
-        }
-
-        .red-text {
-            color: red;
-        }
-
-        .left-align {
-            text-align: left;
-        }
-
-        /* Styling for the table background */
-        table {
-            background-size: cover;
-            background-position: center;
-            height: 80%;
-        }
-
-    </style>
-</head>
-<body>
-    <table>
-        <tr>
-            <td colspan="2">
-                <img src="sasi.png" alt="Profile picture of Sasi"/>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="pic.jpg" alt="Image of student ID"/>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <h5 class="green-text">PENKE AKASH</h5>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <h6>BRANCH: <span class="red-text">CSE</span></h6>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <h4>24K65A0512</h4>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <img src="bar.webp" alt="Barcode image" style="width: 20px; padding-left: 2%;"/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="left-align">
-                    <h6>Aadhar: 906287878888</h6>
-                    <h6>Father: KAMA RAJU</h6>
-                    <h6>Village: Muramanda</h6>
-                    <h6>Cell: 9078789989</h6>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <h6>Valid: 2024-2027</h6>
-                    <img src="sign.png" alt="Signature" style="width: 100px; padding-left: 2%;"/>
-                </div>
-            </td>
-        </tr>
-    </table>
-</body>
+        </style>
+    </head>
+    <body>
+        <table width="400px">
+            <tr>
+                <td colspan="2">
+                    <img src="sasi.jpeg" alt="doesn't load the pic"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="akash.jpg" alt="does not open" width="250px"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h5 class="green-text">PENKE AKASH</h5>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h6>BRANCH: <span class="red-text">CSE</span></h6>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4>24K65A0512</h4>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img src="/id card /Screenshot_20241228_184112.jpg" alt="does not open" style="width: 20cap; padding-left: 2%;"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="left-align">
+                        <h6>Aadhar: 906287878888</h6>
+                        <h6>Father: KAMA RAJU</h6>
+                        <h6>Village: Muramanda</h6>
+                        <h6>Cell: 9078789989</h6>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <h6>Valid: 2024-2027</h6>
+                        <img src="sign.png" alt="does not open" style="width: 10cap; padding-left: 2%;"/>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
 </html>
